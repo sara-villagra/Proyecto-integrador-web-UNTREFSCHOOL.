@@ -23,4 +23,7 @@
   .nav-link {
     color: #181823;
   }
+  .nav-item a {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
