@@ -15,9 +15,9 @@
 </head>
 
 <body>
-  <header class="container-fluid mt-1">
-    <div>
-      <nav class="navbar navbar-expand-md bg-body-tertiary">
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,9 +41,9 @@
     </div>
   </header>
   <main>
-    <section class="container-fluid mt-4">
-      <div>
-        <form action="https://mailthis.to/saravillaggrra@gmail.com" method="POST">
+    <section>
+      <div class="fomulario container-fluid mt-2">
+        <form action="https://mailthis.to/saravillaggrra@gmail.com" method="POST" class="formulario__fondo">
           <div class="row">
             <div class="col">
               <input type="text" name="name" class="form-control" placeholder="Nombre" aria-label="First name">
@@ -57,13 +57,13 @@
               <input type="email" name="email" class="form-control" placeholder="email" aria-label="email">
             </div>
             <div class="form-floating">
-              <textarea class="form-control" name="textarea" placeholder="comentario"
+              <textarea class="form-control comentario" name="textarea" placeholder="comentario"
                 id="floatingTextarea2"></textarea>
               <label for="floatingTextarea2"><Cite></Cite>Comentario</label>
             </div>
             <div>
-              <input class="btn btn-primary" type="submit" value="Enviar">
-              <input class="btn btn-primary" type="reset" value="Reset">
+              <input class="btn btn-enviar" type="submit" value="Enviar">
+              <input class="btn btn-enviar" type="reset" value="Reset">
             </div>
         </form>
       </div>
