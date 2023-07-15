@@ -34,6 +34,14 @@
           clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 
+.nav-item a {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link.fs-propio {
+  font-size: 14px;
+}
+
 .btn.btn-enviar {
   color: #EFF5F5;
   background-color: #1F8A70;
@@ -54,9 +62,16 @@
 
 @media (min-width: 768px) {
   .nav-link {
-    color: #181823;
+    color: #EFF5F5;
   }
-  .nav-item a {
+  .nav-link.fs-propio {
     font-size: 14px;
+  }
+  .navbar-brand.fs-propio {
+    font-size: 28px;
+  }
+  .navbar-expand-md .navbar-collapse {
+    display: flex;
+    justify-content: end;
   }
 }/*# sourceMappingURL=style.css.map */

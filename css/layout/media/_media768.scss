@@ -1,11 +1,21 @@
 @media(min-width:768px) {
     .nav-link {
-        
-        color:$color-dark;
+
+        color: $color-ligth;
+    }
+
+    .nav-link.fs-propio {
+        font-size: 14px;
+    }
+
+    .navbar-brand.fs-propio {
+        font-size: 28px;
+    }
+    
+    .navbar-expand-md .navbar-collapse{
+        display: flex;
+        justify-content: end;
+    }
 }
 
-.nav-item a{
-    font-size: 14px;
-}
-
-}
+    
