@@ -28,10 +28,14 @@
 
 .somos__colum {
   font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .somos__parrafo {
   font-size: 0.9rem;
+  font-family: "Belanosima", sans-serif;
+  text-align: center;
+  margin-top: 1px;
 }
 
 .container-fluid .elegirnos {
@@ -40,10 +44,12 @@
 
 .elegirnos__titulo {
   font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .elegirnos__parrafo {
   font-size: 0.9rem;
+  font-family: "Belanosima", sans-serif;
 }
 
 .propuesta {
@@ -65,13 +71,6 @@
 
 .nav-link.fs-propio {
   font-size: 14px;
-}
-
-.somos__parrafo {
-  font-size: 14px;
-  font-family: "Belanosima", sans-serif;
-  text-align: center;
-  margin-top: 1px;
 }
 
 .btn.btn-enviar {
@@ -112,5 +111,12 @@
   .somos__colum {
     font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
+  }
+  .elegirnos__parrafo {
+    font-size: 16px;
+  }
+  .elegirnos__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
   }
 }/*# sourceMappingURL=style.css.map */
