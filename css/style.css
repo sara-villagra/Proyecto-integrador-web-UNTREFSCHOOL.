@@ -8,6 +8,7 @@
 
 .baner {
   height: 20rem;
+  border: 1px solid black;
 }
 
 .baner__portada {
@@ -21,8 +22,20 @@
   background-size: cover;
 }
 
-.container__somos {
-  border: 2px solid black;
+.somos {
+  border: 1px solid black;
+}
+
+.somos__colum {
+  font-size: 1rem;
+}
+
+.container-fluid .elegirnos {
+  border: 1px solid black;
+}
+
+.propuesta {
+  border: 1px solid black;
 }
 
 .hexa {
@@ -40,6 +53,13 @@
 
 .nav-link.fs-propio {
   font-size: 14px;
+}
+
+.somos__parrafo {
+  font-size: 14px;
+  font-family: "Belanosima", sans-serif;
+  text-align: center;
+  margin-top: 1px;
 }
 
 .btn.btn-enviar {
@@ -73,5 +93,12 @@
   .navbar-expand-md .navbar-collapse {
     display: flex;
     justify-content: end;
+  }
+  .somos__parrafo {
+    font-size: 16px;
+  }
+  .somos__colum {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */
