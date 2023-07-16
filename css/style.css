@@ -27,11 +27,23 @@
 }
 
 .somos__colum {
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.somos__parrafo {
+  font-size: 0.9rem;
 }
 
 .container-fluid .elegirnos {
   border: 1px solid black;
+}
+
+.elegirnos__titulo {
+  font-size: 1.2rem;
+}
+
+.elegirnos__parrafo {
+  font-size: 0.9rem;
 }
 
 .propuesta {
