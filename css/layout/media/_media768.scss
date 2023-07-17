@@ -22,7 +22,7 @@
     .somos__colum {
         font-size:$font-size-titulo-768;
         font-family: 'Poppins', sans-serif;
-        ;
+        
     }
     .elegirnos__parrafo{
         font-size:$font-size-parrafo-768;
@@ -31,7 +31,37 @@
         font-size:$font-size-titulo-768;
         margin-bottom: 5px;
     }
+    .propuesta__titulo h3{
+        font-size: $font-size-titulo-768;
+    }
+    .hexa p{
+        font-size:$font-size-parrafo-768;
+        
+    } 
+    .hexa__img{
+            height: 80%;
+    }
+    .noticias__titulo h2{
+        font-size:$font-size-titulo-768; 
+        font-family: 'Poppins', sans-serif;
+    }
+    .noticias__contenidos h3{
+        font-size:$font-size-subtitulo-768;
+           &p{
+            font-size: $font-size-parrafo-768;
+            font-family: 'Belanosima', sans-serif;
+        
+           
+            }
+    }
+    
 
-}
+    }
+    
+        
+    
+    
+
+
 
     

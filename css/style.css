@@ -143,4 +143,24 @@
     font-size: 1.5rem;
     margin-bottom: 5px;
   }
+  .propuesta__titulo h3 {
+    font-size: 1.5rem;
+  }
+  .hexa p {
+    font-size: 16px;
+  }
+  .hexa__img {
+    height: 80%;
+  }
+  .noticias__titulo h2 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .noticias__contenidos h3 {
+    font-size: 1.1rem;
+  }
+  .noticias__contenidos h3p {
+    font-size: 16px;
+    font-family: "Belanosima", sans-serif;
+  }
 }/*# sourceMappingURL=style.css.map */
