@@ -55,14 +55,25 @@
 .propuesta {
   border: 1px solid black;
 }
+.propuesta h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
 
-.hexa {
+.hexa__img {
   position: relative;
   background-color: black;
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 90%;
   -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
           clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.hexa p {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Belanosima", sans-serif;
 }
 
 .nav-item a {
