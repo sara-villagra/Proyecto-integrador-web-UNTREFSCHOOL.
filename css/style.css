@@ -117,6 +117,7 @@ footer {
 
 .redes__lista span {
   display: none;
+  color: #181823;
 }
 
 .redes__titulo {
@@ -142,6 +143,7 @@ footer {
 
 .ubicación__map span {
   display: none;
+  color: #181823;
 }
 
 .ubicación__map iframe {
@@ -156,10 +158,12 @@ footer {
 
 .contacto__titulo {
   font-size: 0.8rem;
+  color: #181823;
 }
 
 .contacto__lista span {
   display: none;
+  color: #181823;
 }
 
 .btn.btn-enviar {
@@ -234,9 +238,11 @@ footer {
   }
   .redes__titulo {
     text-align: center;
+    font-size: 1.1rem;
   }
   .ubicacion__titulo {
     text-align: start;
+    font-size: 1.1rem;
   }
   .ubicación__map span {
     display: inline-block;
@@ -256,5 +262,8 @@ footer {
   }
   .redes__social {
     left: 25px;
+  }
+  .contacto__titulo {
+    font-size: 1.1rem;
   }
 }/*# sourceMappingURL=style.css.map */

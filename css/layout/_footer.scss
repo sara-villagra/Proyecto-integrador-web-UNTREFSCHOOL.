@@ -4,6 +4,7 @@ footer{
 }
 .redes__lista span{
     display: none;
+    color: $color-dark;
 }
 
 .redes__titulo{
@@ -17,8 +18,7 @@ footer{
 }
 
 .ubicacion__titulo{
-    
-     font-size: $font-size-titulo-footer-320;
+    font-size: $font-size-titulo-footer-320;
 }
 .ubicación__lista{
     position: relative;
@@ -27,6 +27,7 @@ footer{
     }
 .ubicación__map span{
     display:none ;
+    color: $color-dark;
 }
 .ubicación__map iframe{
     display: none;
@@ -38,10 +39,12 @@ footer{
     
 }
 .contacto__titulo{
-    font-size: $font-size-titulo-footer-320;  
+    font-size: $font-size-titulo-footer-320;
+    color:$color-dark ;  
 }
 .contacto__lista span{
     display: none;
+    color: $color-dark;
 }
 
 

@@ -59,11 +59,13 @@
     }
     .redes__titulo{
         text-align:center;
+        font-size: $font-size-titulo-footer-768;
     
 
     }
     .ubicacion__titulo{
         text-align: start;
+        font-size: $font-size-titulo-footer-768;
         
     }
     .ubicación__map span{
@@ -90,6 +92,10 @@
         left: 25px;
     
     }
+    .contacto__titulo{
+        font-size: $font-size-titulo-footer-768;
+    }
+    
     
         
     
