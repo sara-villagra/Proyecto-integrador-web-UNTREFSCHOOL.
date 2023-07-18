@@ -5,9 +5,7 @@ footer{
 .redes__lista span{
     display: none;
 }
-.contacto__lista span{
-    display: none;
-}
+
 .redes__titulo{
    text-align: center;
     font-size:$font-size-titulo-footer-320;
@@ -25,9 +23,11 @@ footer{
 .ubicación__lista{
     position: relative;
     left: -15px;
-    
     list-style: none;
     }
+.ubicación__map span{
+    display:none ;
+}
 .ubicación__map iframe{
     display: none;
 }
@@ -39,6 +39,9 @@ footer{
 }
 .contacto__titulo{
     font-size: $font-size-titulo-footer-320;  
+}
+.contacto__lista span{
+    display: none;
 }
 
 

@@ -119,10 +119,6 @@ footer {
   display: none;
 }
 
-.contacto__lista span {
-  display: none;
-}
-
 .redes__titulo {
   text-align: center;
   font-size: 0.8rem;
@@ -144,6 +140,10 @@ footer {
   list-style: none;
 }
 
+.ubicación__map span {
+  display: none;
+}
+
 .ubicación__map iframe {
   display: none;
 }
@@ -156,6 +156,10 @@ footer {
 
 .contacto__titulo {
   font-size: 0.8rem;
+}
+
+.contacto__lista span {
+  display: none;
 }
 
 .btn.btn-enviar {
@@ -226,11 +230,31 @@ footer {
   }
   .redes__lista span {
     display: inline-block;
+    margin: 8px 0px;
   }
   .redes__titulo {
     text-align: center;
   }
   .ubicacion__titulo {
     text-align: start;
+  }
+  .ubicación__map span {
+    display: inline-block;
+  }
+  .ubicación__map iframe {
+    display: inline-block;
+  }
+  .contacto__lista span {
+    display: inline-block;
+    margin: 8px 0px;
+  }
+  .contacto__nos {
+    left: -30px;
+  }
+  .ubicación__lista {
+    left: -30px;
+  }
+  .redes__social {
+    left: 25px;
   }
 }/*# sourceMappingURL=style.css.map */

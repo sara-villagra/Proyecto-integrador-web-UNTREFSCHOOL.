@@ -55,6 +55,7 @@
     }
     .redes__lista span{
         display: inline-block;
+        margin: 8px 0px;
     }
     .redes__titulo{
         text-align:center;
@@ -65,12 +66,35 @@
         text-align: start;
         
     }
+    .ubicación__map span{
+        display: inline-block;
     
 
+    }
+    .ubicación__map iframe{
+        display:inline-block;
+    }
+    .contacto__lista span{
+        display:inline-block;
+        margin: 8px 0px;
+    }
+    .contacto__nos{
+        left:-30px;
+
+    }
+    .ubicación__lista{
+        left: -30px;
+    
+    }
+    .redes__social{
+        left: 25px;
+    
     }
     
         
     
+
+    }
     
 
 
