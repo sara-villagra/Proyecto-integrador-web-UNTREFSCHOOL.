@@ -62,7 +62,7 @@
       </div>
     </section>
     <!-- seccion somos -->
-    <section class="container-fluid somos" id="quienes-somos">
+    <section class="container-fluid somos mt-4" id="quienes-somos">
       <div class="text-center">
         <div class="row">
           <div class="somos__colum col-sm-12">Quienes somos</div>
@@ -82,7 +82,7 @@
       </div>
     </section>
     <!-- section elegirnos -->
-    <section class="container-fluid elegirnos" id="por-que-elegirnos">
+    <section class="container-fluid elegirnos mt-4" id="por-que-elegirnos">
       <div class="text-center">
         <div class="row mt-2">
           <div class="elegirnos__titulo col-sm-12">¿Por que elegirnos?</div>
@@ -102,7 +102,7 @@
       </div>
     </section>
     <!-- section propuesta Educativa -->
-    <section class="propuesta">
+    <section class="propuesta mt-4">
       <div class="propuesta__titulo container-fluid" id="propuesta-educativa">
         <h3>Propuesta educativa</h3>
         <div class="row mt-4">
@@ -137,7 +137,7 @@
       </div>
     </section>
     <!-- section noticia -->
-    <section class="container-fluid">
+    <section class="container-fluid mt-4">
       <div class="noticias flex-column">
         <div class="noticias__titulo " id="ultimas-noticias">
           <h2>Ultimas noticias</h2>
@@ -167,34 +167,46 @@
 
   </main>
   <footer>
-    <div class="container d-flex gap-4 justify-content-between">
-      <div class="row">
+    <div class="container-fluid d-flex gap-4 justify-content-between mt-4">
+      <div class=" container row">
         <div class="redes col ">
-          <H6>Redes sociales</H6>
+          <H6 class="redes__titulo">Redes sociales</H6>
           <ul class="redes__social">
-            <li class="redes__lista"><a href="https://es-la.facebook.com/" target="_blank"><i
-                  class="bi bi-facebook"></i><span>facebook</span></a>
+            <div class="redes__content">
+              <li class="redes__lista">
+                <a href="https://es-la.facebook.com/" target="_blank" >
+                  <i class="bi bi-facebook"></i>
+                <span>facebook</span></a>
+            </div>
             </li>
             <li class="redes__lista"><a href="https://www.instagram.com" target="_blank"><i
                   class="bi bi-instagram"></i><span>Instagram</span></a></li>
           </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <h6>Instituto</h6>
-          <ul class="ubicación">
-            <li class="ubicación__map "><a href="https://goo.gl/maps/8XZu5URkf3Nz9L8S9" target="_blank"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26136.183612813005!2d-60.301412972919316!3d-35.03115571818039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bec137970396a9%3A0xaed560511f32a43f!2sAlberti%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689637844265!5m2!1ses!2sar" width="80rem" height="80rem" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a></li>
+      <div class="container row">
+        <div class="ubicacion col">
+          <h6 class="ubicacion__titulo">Instituto</h6>
+          <ul class="ubicación__lista">
+            <li class="ubicación__map ">
+              <a href="https://goo.gl/maps/8XZu5URkf3Nz9L8S9" target="_blank"><i class="bi bi-geo-alt"></i></a>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26136.183612813005!2d-60.301412972919316!3d-35.03115571818039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bec137970396a9%3A0xaed560511f32a43f!2sAlberti%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689637844265!5m2!1ses!2sar"
+                width="100%" height="50%" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+            </li>
           </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <h6>Contacto</h6>
-          <ul class="contacto">
-            <li class="contacto__lista"><a href="https://wa.me/5492346000000" target="_blank"><i class="bi bi-whatsapp"></i><span>Whatsapp</span></a>
+      <div class="container row">
+        <div class="contacto col">
+          <h6 class="contacto__titulo">Contacto</h6>
+          <ul class="contacto__nos">
+            <li class="contacto__lista"><a href="https://wa.me/5492346000000" target="_blank"><i
+                  class="bi bi-whatsapp"></i><span>Whatsapp</span></a>
             </li>
-            <li class="contacto__lista"><a href="mailto:saravillaggra@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i><span>Mail</span></a></li>
+            <li class="contacto__lista"><a href="mailto:saravillaggra@gmail.com" target="_blank"><i
+                  class="bi bi-envelope-at-fill"></i><span>Mail</span></a></li>
           </ul>
         </div>
       </div>
