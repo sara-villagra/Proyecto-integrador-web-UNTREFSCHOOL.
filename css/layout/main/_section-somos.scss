@@ -1,14 +1,14 @@
-.somos{
-    border: 1px solid black;
-    
-}
-.somos__colum{
-    font-size: $font-size-titulo-320;
+
+.somos__titulo{
+    font-size:$font-size-titulo-320;
     font-family:'Poppins', sans-serif; 
+    color:$color-primary;
+    text-decoration: underline;
 }
 .somos__parrafo{
-    font-size: $font-size-parrafo-320;
+    font-size:$font-size-parrafo-320;
     font-family: 'Belanosima', sans-serif;
     text-align:center;
     margin-top: 1px;
+    color: $color-terceary;
 }

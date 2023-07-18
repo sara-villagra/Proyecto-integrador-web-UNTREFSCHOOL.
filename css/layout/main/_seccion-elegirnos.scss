@@ -1,11 +1,15 @@
-.container-fluid .elegirnos{
-    border: 1px solid black;
+.elegirnos{
+    margin-bottom: 3rem;
 }
 .elegirnos__titulo{
     font-size:$font-size-titulo-320 ;
     font-family:'Poppins', sans-serif; 
+    color:$color-primary;
+    text-decoration: underline;
+
 }
 .elegirnos__parrafo{
     font-size: $font-size-parrafo-320;
     font-family: 'Belanosima', sans-serif;
+    color:$color-terceary;
 }

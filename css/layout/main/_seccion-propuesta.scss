@@ -1,12 +1,15 @@
-.propuesta{
-    border: 1px solid black;
-    & h3{
+.propuesta h3{
         text-align: center;
+        text-decoration: underline;
         font-size: $font-size-titulo-320;
         font-family:'Poppins', sans-serif; 
+        color: $color-primary;
 
     }
-}
+    .propuesta__titulo{
+        margin-bottom: 3rem;
+    }
+
 .hexa__img{
     position:relative;
     background-color: black;
@@ -18,4 +21,5 @@
     text-align: center;
     font-size: $font-size-parrafo-320;
     font-family: 'Belanosima', sans-serif;
+    color:$color-terceary ;
 }

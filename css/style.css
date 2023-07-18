@@ -23,13 +23,11 @@
   background-size: cover;
 }
 
-.somos {
-  border: 1px solid black;
-}
-
-.somos__colum {
+.somos__titulo {
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
+  color: #FC7300;
+  text-decoration: underline;
 }
 
 .somos__parrafo {
@@ -37,42 +35,56 @@
   font-family: "Belanosima", sans-serif;
   text-align: center;
   margin-top: 1px;
+  color: #00425A;
 }
 
-.container-fluid .elegirnos {
-  border: 1px solid black;
+.elegirnos {
+  margin-bottom: 3rem;
 }
 
 .elegirnos__titulo {
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
+  color: #FC7300;
+  text-decoration: underline;
 }
 
 .elegirnos__parrafo {
   font-size: 0.9rem;
   font-family: "Belanosima", sans-serif;
+  color: #00425A;
 }
 
 .noticias__titulo h2 {
   text-align: center;
+  text-decoration: underline;
   margin-top: 5px;
+  color: #FC7300;
+  font-size: 1.2rem;
 }
 
 .noticias__contenidos h3 {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .noticias__contenidos p {
   text-align: center;
+  font-size: 0.9rem;
+  color: #00425A;
+  margin-bottom: 2rem;
 }
 
-.propuesta {
-  border: 1px solid black;
-}
 .propuesta h3 {
   text-align: center;
+  text-decoration: underline;
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
+  color: #FC7300;
+}
+
+.propuesta__titulo {
+  margin-bottom: 3rem;
 }
 
 .hexa__img {
@@ -88,6 +100,7 @@
   text-align: center;
   font-size: 0.9rem;
   font-family: "Belanosima", sans-serif;
+  color: #00425A;
 }
 
 .nav-item a {
@@ -96,6 +109,10 @@
 
 .nav-link.fs-propio {
   font-size: 14px;
+}
+
+footer {
+  margin: 2px;
 }
 
 .redes__lista span {
