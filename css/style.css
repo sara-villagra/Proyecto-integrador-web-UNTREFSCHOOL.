@@ -121,8 +121,11 @@ footer {
 }
 
 .redes__titulo {
-  text-align: center;
   font-size: 0.8rem;
+}
+
+.redes.col h6 {
+  left: 10px;
 }
 
 .redes__social {
@@ -198,6 +201,9 @@ footer {
     display: flex;
     justify-content: end;
   }
+  .somos__titulo {
+    font-size: 1.5rem;
+  }
   .somos__parrafo {
     font-size: 16px;
   }
@@ -237,8 +243,10 @@ footer {
     margin: 8px 0px;
   }
   .redes__titulo {
-    text-align: center;
     font-size: 1.1rem;
+  }
+  .redes.col h6 {
+    left: 50px;
   }
   .ubicacion__titulo {
     text-align: start;
@@ -266,4 +274,8 @@ footer {
   .contacto__titulo {
     font-size: 1.1rem;
   }
+}
+.redes h6 {
+  position: relative;
+  left: -20px;
 }/*# sourceMappingURL=style.css.map */

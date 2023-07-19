@@ -2,15 +2,18 @@ footer{
     margin: 2px;
 
 }
+
 .redes__lista span{
     display: none;
     color: $color-dark;
 }
-
 .redes__titulo{
-   text-align: center;
     font-size:$font-size-titulo-footer-320;
 }
+.redes.col h6 {
+    left: 10px;
+} 
+
 .redes__social{
     position: relative;
     left: -10px;

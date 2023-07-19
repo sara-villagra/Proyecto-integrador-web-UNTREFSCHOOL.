@@ -16,6 +16,10 @@
         display: flex;
         justify-content: end;
     }
+    .somos__titulo{
+        font-size:$font-size-titulo-768;
+        
+    }
     .somos__parrafo{
         font-size:$font-size-parrafo-768;
     }
@@ -58,11 +62,12 @@
         margin: 8px 0px;
     }
     .redes__titulo{
-        text-align:center;
         font-size: $font-size-titulo-footer-768;
-    
-
     }
+    .redes.col h6 {
+        left: 50px;
+    } 
+    
     .ubicacion__titulo{
         text-align: start;
         font-size: $font-size-titulo-footer-768;
