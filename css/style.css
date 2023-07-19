@@ -9,9 +9,7 @@
 
 .baner {
   height: 20rem;
-  border: 1px solid black;
 }
-
 .baner__portada {
   display: flex;
   justify-content: center;
