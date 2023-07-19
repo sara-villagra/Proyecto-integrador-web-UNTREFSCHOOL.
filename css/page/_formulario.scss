@@ -5,10 +5,12 @@
 .form-floating{
     height: 250px;
 }
+.form-control{
+    border: 2px solid $color-secundary;
+}
 .form-control.comentario{
     min-height: 250px;
-    
-    
+    border: 2px solid $color-secundary;  
     
 }
 .fomulario.container-fluid.mt-2{
