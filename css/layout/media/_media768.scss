@@ -57,11 +57,16 @@
         
             }
     }
+    .redes__social{
+        flex-direction: column;
+    
+    }
     .redes__lista span{
         display: inline-block;
         margin: 8px 0px;
     }
     .redes__titulo{
+        text-align:start;
         font-size: $font-size-titulo-footer-768;
     }
     .redes.col h6 {
@@ -86,18 +91,16 @@
         margin: 8px 0px;
     }
     .contacto__nos{
-        left:-30px;
+        flex-direction: column;
 
     }
     .ubicación__lista{
         left: -30px;
     
     }
-    .redes__social{
-        left: 25px;
     
-    }
     .contacto__titulo{
+        text-align: start;
         font-size: $font-size-titulo-footer-768;
     }
     

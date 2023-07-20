@@ -109,26 +109,23 @@
   font-size: 14px;
 }
 
-footer {
-  margin: 2px;
-}
-
 .redes__lista span {
   display: none;
   color: #181823;
 }
 
+.redes__lista {
+  position: relative;
+  left: -30px;
+}
+
 .redes__titulo {
+  text-align: center;
   font-size: 0.8rem;
 }
 
-.redes.col h6 {
-  left: 10px;
-}
-
 .redes__social {
-  position: relative;
-  left: -10px;
+  gap: 10px;
   list-style: none;
 }
 
@@ -152,12 +149,14 @@ footer {
 }
 
 .contacto__nos {
-  position: relative;
-  left: -10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   list-style: none;
 }
 
 .contacto__titulo {
+  text-align: start;
   font-size: 0.8rem;
   color: #181823;
 }
@@ -241,11 +240,15 @@ footer {
     font-size: 16px;
     font-family: "Belanosima", sans-serif;
   }
+  .redes__social {
+    flex-direction: column;
+  }
   .redes__lista span {
     display: inline-block;
     margin: 8px 0px;
   }
   .redes__titulo {
+    text-align: start;
     font-size: 1.1rem;
   }
   .redes.col h6 {
@@ -266,15 +269,13 @@ footer {
     margin: 8px 0px;
   }
   .contacto__nos {
-    left: -30px;
+    flex-direction: column;
   }
   .ubicación__lista {
     left: -30px;
   }
-  .redes__social {
-    left: 25px;
-  }
   .contacto__titulo {
+    text-align: start;
     font-size: 1.1rem;
   }
 }

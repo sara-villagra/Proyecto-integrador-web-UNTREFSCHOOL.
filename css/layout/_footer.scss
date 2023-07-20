@@ -1,25 +1,19 @@
-footer{
-    margin: 2px;
-
-}
-
 .redes__lista span{
     display: none;
     color: $color-dark;
 }
+.redes__lista{
+    position: relative;
+    left:-30px;
+}
 .redes__titulo{
+    text-align: center;
     font-size:$font-size-titulo-footer-320;
 }
-.redes.col h6 {
-    left: 10px;
-} 
-
 .redes__social{
-    position: relative;
-    left: -10px;
+    gap: 10px;
     list-style: none;
 }
-
 .ubicacion__titulo{
     font-size: $font-size-titulo-footer-320;
 }
@@ -36,12 +30,13 @@ footer{
     display: none;
 }
 .contacto__nos{
-    position: relative;
-    left:-10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     list-style: none;
-    
 }
 .contacto__titulo{
+    text-align:start;
     font-size: $font-size-titulo-footer-320;
     color:$color-dark ;  
 }
