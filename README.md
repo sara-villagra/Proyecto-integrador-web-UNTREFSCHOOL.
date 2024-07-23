@@ -5,9 +5,9 @@
 - https://github.com/sara-villagra
   
 ## Descripción del Proyecto
-En este proyecto se desarrollo una pagina web institucional de un instituto educativo. La Pagina principal esta dividida en cuatro secciones:
-Quienes somos, ¿Por qué elegirnos?, Propuesta educativa, Ultimas noticias. En cada una hay descripciónes e imagenes sobre el instituto.
-En el pie de pagina se proprciona informacion de las redes sociales, ubicación y numero de contacto. En la pagina de contacto hay un formulario para agregar comentario. Esta pagina se adapta a diferentes tamaños de pantallas como tambien a dispositivos moviles.
+En este proyecto se desarrollo una página web institucional de un instituto educativo. La Página principal esta dividida en cuatro secciones:
+Quienes somos, ¿Por qué elegirnos?, Propuesta educativa, Ultimas noticias. En cada una hay descripción e imagenes sobre el instituto.
+En el pie de página se proprciona informacion de las redes sociales, ubicación y numero de contacto. En la pagina de contacto hay un formulario para agregar comentario. Esta página se adapta a diferentes tamaños de pantallas como dispositivos moviles.
 
 ## Estructura del Repositorio
 ```plaintext
@@ -31,7 +31,7 @@ En el pie de pagina se proprciona informacion de las redes sociales, ubicación 
 ```
 ## Deployment
 
-En este proyecto de utilizo github pages para realizar el deploy
+En este proyecto de utilizó Github Pages para realizar el deploy
 
 ```bash
   https://sara-villagra.github.io/Proyecto-integrador-web-UNTREFSCHOOL./index.html
